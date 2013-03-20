@@ -7,7 +7,7 @@ title: Welcome to my Blog
 {% for post in paginator.posts %}
 
    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-   <div class="date">{{post.date | date: "%A, %d %B %Y %Z" }}</div>
+   <div class="date">{{post.date | date: "%A, %d %B %Y" }}</div>
    <div>
     {{ post.content }}
    </div>
@@ -16,7 +16,8 @@ title: Welcome to my Blog
 
 <!-- Pagination links -->
 <div id="post-pagination" class="pagination">
-
+<table>
+<tr>
   {% if paginator.previous_page %}
   <p class="previous">
     {% if paginator.previous_page == 1 %}
@@ -25,12 +26,15 @@ title: Welcome to my Blog
     <a href="/page{{paginator.previous_page}}">Previous</a>
     {% endif %}
   </p>
+  </tr>
   {% else %}
+  <tr>
   <p class="previous disabled">
     <span>Previous</span>
   </p>
+  </tr>
   {% endif %}
-
+<tr>
   <ul class="pages">
     <li class="page">
       {% if paginator.page == 1 %}
@@ -39,11 +43,11 @@ title: Welcome to my Blog
       <a href="/">1</a>
       {% endif %}
     </li>
-
+</tr>
     {% for count in (2..paginator.total_pages) %}
     <li class="page">
       {% if count == paginator.page %}
-      <span class="current-page">{{count}}</span>
+      <tr class="current-page">{{count}}</tr>
       {% else %}
       <a href="/page{{count}}">{{count}}</a>
       {% endif %}
@@ -52,18 +56,21 @@ title: Welcome to my Blog
   </ul>
 
   {% if paginator.next_page %}
+  <tr>
   <p class="next">
     <a href="/page{{paginator.next_page}}">Next</a>
   </p>
+  </tr>
   {% else %}
+  <tr>
   <p class="next disabled">
     <span>Next</span>
   </p>
+  </tr>
   {% endif %}
-
+</table>
 </div>
 
-<div class="page_number ">Page {{paginator.page}} of {{paginator.total_pages}}</div>
 
 
 
