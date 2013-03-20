@@ -27,8 +27,9 @@ title: Welcome to my Blog
     {% else %}
 	<tr>
     <a href="/page{{paginator.previous_page}}">Previous</a>
-    {% endif %}
-	 </tr>
+	 </tr>  
+  {% endif %}
+
   </p>
  
   {% else %}
@@ -58,7 +59,7 @@ title: Welcome to my Blog
     <li class="page">
       {% if count == paginator.page %}
 	  <tr>
-      <a> class="current-page">{{count}}</a>
+      <a class="current-page">{{count}}</a>
       </tr>
 	  {% else %}
 	  <tr>
