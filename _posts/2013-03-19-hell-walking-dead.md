@@ -1,6 +1,6 @@
 ---
 layout: post
-category : cyborg
+category : 媒介
 tagline:
 tags : 
 ---
