@@ -4,19 +4,28 @@ title: Welcome to my Blog
 ---
 {% include JB/setup %}
 
+{% for post in paginator.posts %}
 
-## 虚拟空间
+   <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+   <div class="date">{{post.date | date: "%A, %d %B %Y %H:%M:%S %Z" }}</div>
+   <div>
+    {{ post.content }}
+   </div>
+   <hr>
+{% endfor %}
 
-
-	
-## Cyborg
- 
-    Human being
-
-## 媒介
-
-    not at all
-
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="/page{{paginator.previous_page}}" class="next">Next</a>
+  {% else %}
+  {% endif %}
+  {% if paginator.next_page %}
+    <a href="/page{{paginator.next_page}}" class="previous ">Previous</a>
+  {% else %}
+  {% endif %}
+</div>
+<div class="page_number ">Page {{paginator.page}} of {{paginator.total_pages}}</div>
 
 
 
