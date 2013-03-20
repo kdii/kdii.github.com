@@ -1,6 +1,7 @@
 ---
 layout: page
 <<<<<<< HEAD
+<<<<<<< HEAD
 title: Welcome to my Blog
 ---
 {% include JB/setup %}
@@ -20,6 +21,8 @@ title: Welcome to my Blog
 
 
 =======
+=======
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 title: Hello World!
 tagline: Supporting tagline
 ---
@@ -62,6 +65,9 @@ Here's a sample "posts list".
 
 This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
 We need to clean up the themes, make theme usage guides with theme-specific markup examples.
+<<<<<<< HEAD
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
+=======
 >>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 
 

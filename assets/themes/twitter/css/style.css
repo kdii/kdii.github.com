@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* Override some defaults */
 html, body {
   background-color: #eee;
@@ -71,6 +72,8 @@ body {
 }
 	
 =======
+=======
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 /* Custom container */
 .container-narrow {
   margin: 0 auto;
@@ -135,5 +138,9 @@ body {
 .tag_box a.active {
   background: #57A957;
   border: 1px solid #4c964d;
+<<<<<<< HEAD
+  color: #FFF; }
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
+=======
   color: #FFF; }
 >>>>>>> 239170daf20ca6b9774a55281a364959f9660629

@@ -6,13 +6,17 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
 <<<<<<< HEAD
+<<<<<<< HEAD
 paginate: 10
+=======
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 =======
 >>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
+<<<<<<< HEAD
 <<<<<<< HEAD
 title : kd's blog
 tagline: kd's blog
@@ -22,6 +26,8 @@ author :
   github : kdii
   twitter : kdii
 =======
+=======
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 title : kd's site
 tagline: Site Tagline
 author :
@@ -29,6 +35,9 @@ author :
   email : blah@email.test
   github : kdii
   twitter : username
+<<<<<<< HEAD
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
+=======
 >>>>>>> 239170daf20ca6b9774a55281a364959f9660629
   feedburner : feedname
 
@@ -87,7 +96,11 @@ JB :
   archive_path: /archive.html
   categories_path : /categories.html
 <<<<<<< HEAD
+<<<<<<< HEAD
   
+=======
+  tags_path : /tags.html
+>>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 =======
   tags_path : /tags.html
 >>>>>>> 239170daf20ca6b9774a55281a364959f9660629
