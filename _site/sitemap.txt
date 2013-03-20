@@ -1,11 +1,16 @@
 
-http://username.github.com/archive.html
-http://username.github.com/atom.xml
-http://username.github.com/categories.html
-http://username.github.com/index.html
-http://username.github.com/pages.html
-http://username.github.com/rss.xml
-http://username.github.com/sitemap.txt
-http://username.github.com/tags.html
+http://kdii.github.com/About.html
+http://kdii.github.com/archive.html
+http://kdii.github.com/atom.xml
+http://kdii.github.com/categories.html
+http://kdii.github.com/category.html
+http://kdii.github.com/fun.html
+http://kdii.github.com/index.html
+http://kdii.github.com/pages.html
+http://kdii.github.com/rss.xml
+http://kdii.github.com/sitemap.txt
+http://kdii.github.com/tags.html
 
-http://username.github.com/lessons/2011/12/29/jekyll-introduction
+http://kdii.github.com/cyborg/2013/03/19/hello-world
+http://kdii.github.com/cyborg/2013/03/19/hell-walking-dead
+http://kdii.github.com/hello/2013/03/19/hell-the-sky

@@ -5,23 +5,11 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 auto: true
 pygments: true
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 paginate: 10
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 title : kd's blog
 tagline: kd's blog
 author :
@@ -29,25 +17,6 @@ author :
   email : kdiimeme@gmail.test
   github : kdii
   twitter : kdii
-=======
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-title : kd's site
-tagline: Site Tagline
-author :
-  name : kd
-  email : blah@email.test
-  github : kdii
-  twitter : username
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
   feedburner : feedname
 
 # The production_url is only used when full-domain names are needed
@@ -104,19 +73,7 @@ JB :
   #
   archive_path: /archive.html
   categories_path : /categories.html
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
   
-=======
-  tags_path : /tags.html
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
-  tags_path : /tags.html
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
-=======
-  tags_path : /tags.html
->>>>>>> 239170daf20ca6b9774a55281a364959f9660629
   atom_path : /atom.xml
   rss_path : /rss.xml
 
