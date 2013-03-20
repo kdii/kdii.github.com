@@ -1,6 +1,6 @@
 ---
 layout: post
-category : 技术
+category : cyborg
 tagline:
 tags : 
 ---
