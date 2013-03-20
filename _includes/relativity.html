@@ -1,10 +1,16 @@
 {% if page.previous or page.next %}
+<table>
 <ul class="relativity">
 {% if page.previous %}
+<td>
 	<li><a href="{{ page.previous.url }}/" title="{{ page.previous.title }}" class="prev" rel="prev">&larr; previous article</a></li>
+	</td>
 {% endif %}
 {% if page.next %}
+<td>
 	<li><a href="{{ page.next.url }}/" title="{{ page.next.title }}" class="next" rel="next">next article &rarr;</a></li>
+	</td>
 {% endif %}
 </ul>
+</table>
 {% endif %}
