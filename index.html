@@ -22,11 +22,14 @@ title: Welcome to my Blog
   <p class="previous">
     {% if paginator.previous_page == 1 %}
     <a href="/">Previous</a>
+	</tr>
     {% else %}
+	<tr>
     <a href="/page{{paginator.previous_page}}">Previous</a>
     {% endif %}
+	 </tr>
   </p>
-  </tr>
+ 
   {% else %}
   <tr>
   <p class="previous disabled">
@@ -38,9 +41,11 @@ title: Welcome to my Blog
   <ul class="pages">
     <li class="page">
       {% if paginator.page == 1 %}
-      <span class="current-page">1</span>
+      <tr> class="current-page">1</tr>
       {% else %}
+	  <tr>
       <a href="/">1</a>
+	  </tr>
       {% endif %}
     </li>
 </tr>
@@ -49,8 +54,10 @@ title: Welcome to my Blog
       {% if count == paginator.page %}
       <tr class="current-page">{{count}}</tr>
       {% else %}
+	  <tr>
       <a href="/page{{count}}">{{count}}</a>
-      {% endif %}
+      </tr>
+	  {% endif %}
     </li>
     {% endfor %}
   </ul>
