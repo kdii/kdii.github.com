@@ -2,7 +2,7 @@
 layout: post
 category : 新的世界
 title: 文心雕龙
-tags : 
+tags : test1 test2
 ---
 {% include JB/setup %}
 
