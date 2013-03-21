@@ -1,9 +1,9 @@
 ---
 layout: post
-category : cyborg
+category : hello world
 
-tags : 
+tags : hello world
 ---
 {% include JB/setup %}
 
-## Hi There
+## ~!@#
