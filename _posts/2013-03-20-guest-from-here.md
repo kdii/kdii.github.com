@@ -1,7 +1,7 @@
 ---
 layout: post
 category : 新的世界
-
+title: 文心雕龙
 tags : 
 ---
 {% include JB/setup %}
