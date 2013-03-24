@@ -2,7 +2,7 @@
 layout: post
 category : information overload
 title: 信息过载和道德过载
-tags : information overload, morality
+tags : [information overload, morality]
 ---
 {% include JB/setup %}
 

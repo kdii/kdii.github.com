@@ -2,7 +2,7 @@
 layout: post
 category : internet
 title: 从税收的角度来看Google Adsense 的问题
-tags : adsense, tax
+tags : [adsense, tax]
 ---
 {% include JB/setup %}
 
