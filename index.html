@@ -9,11 +9,13 @@ title:
    <!-- here add you post markup -->
    <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
    <p class="author">
-    <span class="date">{{post.date}}</span>
+    <span class="date">{{post.date | date: "%A, %d %B %Y" }}</span>
   </p>
+  <hr>
   <div class="content">
     {{ post.content }}
   </div>
+  <hr>
 {% endfor %}
 
 {% include pagination.html %}
