@@ -1,6 +1,6 @@
 ---
 layout: post
-category : information overload
+category : internet
 title: 信息过载和道德过载
 tags : [information overload, morality]
 ---
